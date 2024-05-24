@@ -6,6 +6,10 @@ This project is a Python-based web application that provides a CRUD interface fo
 
 To get started with this project, clone the repository to your local machine and navigate to the `src` directory. This directory contains all the source code for the application.
 
+## Setting Up the variables
+Add the following variables that you got provided in the project submission. The file should be named constants.py and should be placed in the utils folder.
+
+
 ### Prerequisites
 
 You will need Python 3.9 or later installed on your machine. You will also need the following Python packages:
