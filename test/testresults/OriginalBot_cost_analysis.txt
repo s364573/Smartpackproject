@@ -1,0 +1,30 @@
+==================================================
+               COST ANALYSIS REPORT
+==================================================
+
+Results saved to: testresults/OriginalBot_results.csv
+
+TOTAL TOKEN USAGE
+--------------------------------------------------
+Prompt tokens: 90058
+Response tokens: 4664
+
+AVERAGE TOKEN USAGE PER QUESTION
+--------------------------------------------------
+Average prompt tokens: 1286.54
+Average response tokens: 66.63
+
+TOTAL COST
+--------------------------------------------------
+Prompt tokens cost: $0.45
+Response tokens cost: $0.07
+Overall cost: $0.52
+
+ESTIMATED COST FOR 4200 QUERIES
+--------------------------------------------------
+Total prompt tokens: 5403480.0
+Total response tokens: 279840.0
+Total prompt tokens cost: $27.02
+Total response tokens cost: $4.20
+Overall cost for 4200 queries: $31.22
+==================================================

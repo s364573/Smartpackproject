@@ -1,0 +1,16 @@
+==================================================
+               COST ANALYSIS REPORT
+==================================================
+
+Results saved to: testresults/ChainBot_results.csv
+
+TOTAL TOKEN USAGE
+--------------------------------------------------
+Prompt tokens: 52449
+Response tokens: 9085
+
+AVERAGE TOKEN USAGE PER QUESTION
+--------------------------------------------------
+Average prompt tokens: 749.27
+Average response tokens: 129.79
+
