@@ -47,12 +47,11 @@ python client.py
 
 ## Components
 
-- `bot.py`: Handles the interaction with the OpenAI model and the Chroma vector store. Loads data from a CSV file, generates embeddings for the data, and uses those embeddings to create a `ConversationalRetrievalChain` with the `ChatOpenAI` model.
-- `CRUDdb.py`: Contains the CRUD (Create, Read, Update, Delete) operations for interacting with the database. Uses the FastAPI framework to define API endpoints for these operations.
-- `main.py`: The main script and the entry point for the application. Imports functionality from other scripts, such as `CRUDdb.py` and `bot.py`.
-- `sql.py`: Handles the interaction with the PostgreSQL database. Contains functions for creating a database connection, executing SQL queries, and formatting data.
-- `client.py`: A script for testing the application. Sends a GET request to the application and prints the response.
-- `utils/bot_utils.py`: Contains utility functions for the bot, such as formatting responses and adding data to the Chroma vector store.
+- main.py: The start of the application, instantiating different modules 
+- CRUDdb.py: Handles the CRUD operations for the relational database. Contains the API-endpoints for the CRUD as well as the 	query-endpoint for the chatbot. 
+- sql.py: Establishes the connection between the relational database. 
+- client.py: A test script for the examiner to check the applications functionality  
+- utils/bot_utils.py: Contains utility functions for data formatting and interaction with the vector database. 
 
 ## Authors
 
